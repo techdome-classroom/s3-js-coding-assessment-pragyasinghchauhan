@@ -15,6 +15,7 @@ var isValid = function(s) {
                 return false; 
             stack.pop(); 
     }
+}
     return !stack.length;
 
 };
