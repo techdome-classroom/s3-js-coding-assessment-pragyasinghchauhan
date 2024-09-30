@@ -17,8 +17,6 @@ var isValid = function(s) {
             stack.pop(); // otherwise, pop the opening bracket from the stack
         }
     }
-    return !stack.length; // if the stack is empty, all opening brackets have been matched with their corresponding closing brackets,
-                          // so the string is valid, otherwise, there are unmatched opening brackets, so return false
-};
+    return !stack.length;
 
 
