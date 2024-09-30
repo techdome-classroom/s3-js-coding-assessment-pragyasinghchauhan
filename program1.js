@@ -6,7 +6,7 @@ var isValid = function(s) {
     let stack = []; // create an empty stack to store opening brackets
     for (let c of s) { 
         if (c === '(' || c === '{' || c === '[') { // if the character is an opening bracket
-            stack.push(c); // push it onto the stack
+            stack.push(c); 
         } else { 
             if (!stack.length ||  
                 (c === ')' && stack[stack.length - 1] !== '(') || // the closing bracket doesn't match the corresponding opening bracket at the top of the stack
