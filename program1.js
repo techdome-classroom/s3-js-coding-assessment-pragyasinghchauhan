@@ -5,7 +5,7 @@
 var isValid = function(s) {
     let stack = []; // create an empty stack to store opening brackets
     for (let c of s) { 
-        if (c === '(' || c === '{' || c === '[') { // if the character is an opening bracket
+        if (c === '(' || c === '{' || c === '[') { 
             stack.push(c); 
         } else { 
             if (!stack.length ||  
