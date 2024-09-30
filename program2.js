@@ -12,7 +12,10 @@ var romanToInt = function(s) {
         'D':500,
         'M':1000
     };
-    
+    let result = 0;
+    for(let i = 0;i<s.length;i++){
+        if(i+1<s.length && romanMap[s[i]])
+    }
     
 };
 
